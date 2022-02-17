@@ -27,7 +27,7 @@ quistionNum.addEventListener('submit', (e) => {
     
     localStorage.setItem('quiNum', Number(quzNum.value));
     let quiNum = localStorage.getItem('quiNum') ;
-    if(quiNum >= 1 && quiNum<= 60){
+    if(quiNum >= 10 && quiNum<= 60){
         // quizForm.classList.remove('d-none');
         
         document.querySelector('.failed').classList.add('d-none')
