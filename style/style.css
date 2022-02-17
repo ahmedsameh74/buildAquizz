@@ -1,0 +1,6 @@
+.checked{
+    color: green;
+}
+.wrong{
+    background-color: #ff000096;
+}

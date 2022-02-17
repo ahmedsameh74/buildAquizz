@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <title>welcome</title>
+</head>
+<body>
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">
+               Quiz App
+            </h2>
+        </div>
+    </div>
+
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>Hey <span class="username text-primary display-4 p-3"></span> start building your quiz</p>
+            <div class="message">choose number of quistions</div>
+            <!-- <select class="form-select qusNum">
+                <option value="0">0</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="40">40</option>
+              </select> -->
+              
+            <form class="quiz-form text-light" id="qusNum">
+                <div class="my-5">
+                    <input class="form-control form-control-lg num" type="text" placeholder="Enter Your quistions number 10:60 ..." name="name">
+                    <div class="failed d-none text-danger">enter valid number between 10:60</div>
+                </div>
+                <div class="text-center ">
+                    <!-- <input type="submit" > -->
+                    <button class="btn btn-primary my-3">submit</button>
+                </div>
+            </form>
+              
+        </div>
+    </div>
+
+    <!-- <div class="quizz py-4 bg-primary d-none">
+        <div class="container">
+            
+        </div>
+    </div> -->
+
+    <script src="/App/build.js"></script>
+</body>
+</html>

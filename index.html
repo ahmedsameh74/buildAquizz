@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">
+               Quiz App
+            </h2>
+        </div>
+    </div>
+
+    <!-- signUpForm -->
+    <div class="signup py4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">Sign Up</h2>
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <input class="form-control form-control-lg" type="text" placeholder="Enter Your Name..." name="name">
+            
+                </div>
+                <div class="my-5">
+                    <input class="form-control form-control-lg" type="password" placeholder="Enter Your Pasword..." name="password">
+            
+                </div>
+                <div class="failedU d-none text-danger">Please Enter Your Name</div>
+                <div class="failedP d-none text-danger text-center">Please Complete Your Data</div>
+                <div class="text-center ">
+                    <!-- <input type="submit" > -->
+                    <button class="btn btn-light my-3">submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="App/app.js"></script>
+</body>
+</html>
